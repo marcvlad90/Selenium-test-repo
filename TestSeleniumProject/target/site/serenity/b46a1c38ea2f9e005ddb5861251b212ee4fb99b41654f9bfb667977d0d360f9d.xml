@@ -1,0 +1,45 @@
+<acceptance-test-run title="Searching by keyword apple should display the corresponding article" name="searching_by_keyword_apple_should_display_the_corresponding_article" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10791" timestamp="2015-11-02T22:13:18.444+02:00">
+  <user-story id="com.features.search.SearchByKeywordStory" name="Search by keyword story" path="com.features.search"/>
+  <issues>
+    <issue>#WIKI-1</issue>
+  </issues>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1763">
+    <screenshots>
+      <screenshot image="177b3a4152ecc2f6b6c033ca1ffa63e6.png"/>
+      <screenshot image="47d54a4cc73ccea5ea739f869b1185e8.png"/>
+    </screenshots>
+    <description>Is the home page</description>
+  </test-step>
+  <test-group name="Looks for: &lt;span class=&apos;step-parameter&apos;&gt;apple&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="204da57ae484991482b1adec7946d9a1.png"/>
+      <screenshot image="cd51cccecb8a24ddd6f823c32f3b4846.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2071">
+      <screenshots>
+        <screenshot image="4341106fb2096ccfeaddc6371990add2.png"/>
+        <screenshot image="f79a5a24ce7f2cc93f2817cdd40cab5a.png"/>
+      </screenshots>
+      <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;apple&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1999">
+      <screenshots>
+        <screenshot image="ae95b7d68c0f03740bc5cf17710a5cd4.png"/>
+        <screenshot image="52f4087a8fb148715decbf9c214a5649.png"/>
+      </screenshots>
+      <description>Starts search</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1696">
+    <screenshots>
+      <screenshot image="065a0becce35aedfd0df6b471d1d5020.png"/>
+      <screenshot image="3470d5bf6b7d49348070f1e13b60e6b9.png"/>
+    </screenshots>
+    <description>Should see definition: &lt;span class=&apos;step-parameter&apos;&gt;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
